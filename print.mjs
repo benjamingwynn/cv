@@ -70,7 +70,7 @@ const outputFilename = `cv-2024-${getVersion()}.pdf`
 status("Read document")
 const file = await fsp.readFile("./document.md")
 
-status("Render to markdown")
+status("Render to HTML")
 const mdHtml = md({
 	// enable HTML tags like <small>
 	html: true,
