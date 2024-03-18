@@ -63,5 +63,3 @@ I am seeking a challenging role to leverage technical expertise and leadership s
 - Microsoft Certified: Azure Fundamentals (2020)
 - CertHe Computer Science (2019) - First
 - WJEC A-Levels inc. Computing and Electronics (2016)
-
-<small>References are available on request.</small>
