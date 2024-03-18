@@ -1,3 +1,4 @@
 node_modules/
 final.html
 pnpm-lock.yaml
+out/
