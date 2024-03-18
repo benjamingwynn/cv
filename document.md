@@ -1,5 +1,7 @@
-# Benjamin Gwynn | CV 2024
-##### NOTE: this document is intentionally unformatted, styling and page breaks will be added later.
+# Benjamin Gwynn
+<!-- # Benjamin Gwynn | CV 2024 -->
+###### cv2024@benjamingwynn.com | github.com/benjamingwynn
+<!-- ##### NOTE: this document is intentionally unformatted, styling and page breaks will be added later. -->
 
 Software engineer captivated by the evolution of web technologies and unlocking high performance on the web platform. I find great joy and satisfaction in optimizing backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy.
 
@@ -31,7 +33,7 @@ I am seeking a challenging role to leverage technical expertise and leadership s
 
 ## Work Experience
 
-### Remote Web Application Developer - DataCapture Ltd. (2022-current)
+### Remote Web Application Developer, DataCapture Ltd. (2021-current)
 
 - Led the team of the "Designer" project, a cutting-edge web app enabling direct manipulation of Svelte source code files through an intuitive WYSIWYG graphical interface
 - Implemented a high-performance build & deployment application using Docker and esbuild, drastically reducing update cycles, decreasing onboarding time for server maintenance and enhancing efficiency.
@@ -45,21 +47,63 @@ I am seeking a challenging role to leverage technical expertise and leadership s
 
 - Junior Developer at Lincoln Student Union (2020), where priorities included team communication, documentation creation, and PHP code review.
 - Full-stack Developer at Benjamin Gwynn Design (2015 - 2018), a freelance experience during which I led various projects
-  - Led the development an interactive HTML5 maths worksheet editing tool - the 'Worksheet Canvas' for BigBrainMaths. The project laid the foundation for my later contributions to DataCapture's Designer tool.
-  - Worked on bespoke software for small businesses including game studios, local brick-and-mortar shops and online stores.
-  - Worked on custom components for large companies such as Capital Law and Admiral Insurance
-  - Setup and provided support for SME's on AWS and Azure, providing bespoke serverless solutions.
+	- Led the development an interactive HTML5 maths worksheet editing tool - the 'Worksheet Canvas' for BigBrainMaths. The project laid the foundation for my later contributions to DataCapture's Designer tool.
+	- Worked on bespoke software for small businesses including game studios, local brick-and-mortar shops and online stores.
+	- Worked on custom components for large companies such as Capital Law and Admiral Insurance
+	- Setup and provided support for SME's on AWS and Azure, providing bespoke serverless solutions.
 - Provided support at Ikona IT Ltd. (2014) as part of a temporary role aiding local companies with their Windows-based IT infrastructure.
 
 ## Education & Training
 
-- BSc Computer Science, University of Lincoln (2018 - 2021
-  - Modules included: Cloud Computing (with Google Cloud), Machine Learning, Big Data, Network Fundamentals, Parallel Programming, Logic & Computation.
-  - Dissertation: "pkgnet: A Decentralized Package Manager for Linux Code Repositories"
-    - Conducted a comprehensive analysis and developed a solution to enhance Linux software distribution efficiency using a peer-to-peer networking model, underscoring the significance of compiler optimizations and management of package releases, aiming to streamline the software delivery process.
-    - Designed and implemented a standardized method for building and sharing pre-compiled software binaries, promoting a scalable, secure, and independent distribution mechanism.
-    - Demonstrated the potential of a decentralized approach in reducing dependencies on centralized servers and handling version control disparities across Linux systems.
-    - Employed Node.js and WebTorrent technology for the development of the pkgnet daemon (`pkgnetd`) and CLI tool (`pkgnet-cli`), ensuring cross-platform compatibility and leveraging modern web technologies.
+- BSc Computer Science, University of Lincoln (2018 - 2021)
+	- Modules included: Cloud Computing (with Google Cloud), Machine Learning, Big Data, Network Fundamentals, Parallel Programming, Logic & Computation.
+	- Dissertation: "pkgnet: A Decentralized Package Manager for Linux Code Repositories"
+		- Conducted a comprehensive analysis and developed a solution to enhance Linux software distribution efficiency using a peer-to-peer networking model, underscoring the significance of compiler optimizations and management of package releases, aiming to streamline the software delivery process.
+		- Designed and implemented a standardized method for building and sharing pre-compiled software binaries, promoting a scalable, secure, and independent distribution mechanism.
+		- Demonstrated the potential of a decentralized approach in reducing dependencies on centralized servers and handling version control disparities across Linux systems.
+		- Employed Node.js and WebTorrent technology for the development of the pkgnet daemon (`pkgnetd`) and CLI tool (`pkgnet-cli`), ensuring cross-platform compatibility and leveraging modern web technologies.
 - Microsoft Certified: Azure Fundamentals (2020)
 - CertHe Computer Science (2019) - First
 - WJEC A-Levels inc. Computing and Electronics (2016)
+
+<style>
+	body {
+		font-family: 'Helvetica';
+	}
+
+	h1 {
+		/* font-weight: normal; */
+		margin: 0;
+		text-align: center;
+		font-size: 21pt;
+	}
+	h2 {
+		font-size: 14pt;
+		margin: 1ex 0;
+	}
+	h3 {
+		font-size: 12pt;
+		margin: 1ex 0;
+		font-weight: normal;
+	}
+	h5 {
+		text-align: center;
+		margin: 0;
+		margin-top: 1ex;
+	}
+	h6 {
+		text-align: center;
+		margin: 1ex 0;
+		font-weight: normal;
+	}
+
+	p, ul {
+		font-size: 10pt;
+	}
+	small {
+		font-size: 6pt;
+		display: block;
+		color: #ececec;
+		text-align: right;
+	}
+</style>
