@@ -1,15 +1,19 @@
 {
-  "name": "cv2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "markdown-it": "~14.0"
-  }
+	"name": "cv-2024",
+	"private": "true",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "./print.mjs",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Benjamin Gwynn",
+	"license": "ISC",
+	"devDependencies": {
+		"ansi-colors": "^4.1.3",
+		"markdown-it": "~14.0",
+		"puppeteer": "~22.5"
+	}
 }
