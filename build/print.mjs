@@ -34,7 +34,7 @@ async function htmlToPdf(html) {
 	// const margin = "1in" // <-- matches MS Word's "normal" default
 	const pdf = await page.pdf({
 		margin: {top: margin, right: margin, bottom: margin, left: margin},
-		printBackground: true,
+		outline: true,
 		format: "A4",
 	})
 

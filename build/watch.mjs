@@ -16,6 +16,22 @@ async function makeDocument() {
 	doc = `<html><head><title>Document preview</title></head><body>` + doc + `</body>`
 	// add the hot reload client-side code
 	doc += `\n<script>(new EventSource("$")).onmessage=function(){location.reload(!0)}</script>`
+	// add styling so it always looks like a pdf when in dev mode
+	doc += `<style>
+	@media only screen {
+		html {
+			background: #3b4750;
+		}
+		body {
+			background: white;
+			box-shadow: black 0 0 1em;
+			margin: 0.25in auto;
+			padding: 0.5in;
+			max-width: 210mm;
+			/* height: 297mm; */
+			box-sizing: border-box;
+		}
+	}</style>`
 	return doc
 }
 

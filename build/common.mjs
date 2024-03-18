@@ -17,6 +17,7 @@ process.on("beforeExit", () => {
 /** if the last commit was tagged in Git returns the tag, otherwise returns a default string */
 export function getVersion() {
 	const command = `git tag -l --contains`
+	const fallback = `WIP-` + new Date().toISOString().replaceAll(":", "").replaceAll(":", "") // <-- the default string;
 	const result = cproc.execSync(command).toString()
-	return result.trim() || `WIP` // <-- the default string
+	return result.trim() || fallback
 }
