@@ -35,7 +35,7 @@ I'm eager to bring my robust understanding of backend optimisation, reverse engi
 
 ### Remote Web Application Developer, DataCapture Ltd. (2021-2024)
 
-- Architected and led the team for developing "Designer", a cutting-edge web app enabling direct manipulation of Svelte source code files through an intuitive WYSIWYG graphical interface
+- Architected and led the team for developing "Designer", a cutting-edge web app enabling direct manipulation of Svelte source code files through an intuitive WYSIWYG graphical interface.
 - Implemented a high-performance build & deployment application using Docker and esbuild, drastically reducing update cycles, decreasing onboarding time for server maintenance and enhancing efficiency.
 - Initiated and headed the transformative restructuring of our system's backend into two separate processes: Data Acquisition System (DAS) and Core. This pioneering model allowed for more efficient web requests and probing/data storing, facilitating enhanced network scalability. This model permitted individual DAS units to monitor specific devices and utilised a robust communication relationship between DAS and Core using UDP datagrams and websockets. This major project not only enhanced system functionality but also retained the flexibility for local or multi-server application.
 - Responsible for handling DevOps - implementing features such as hot reload, autoformatting and type-safety into our existing stack.
@@ -49,7 +49,7 @@ I'm eager to bring my robust understanding of backend optimisation, reverse engi
 - Full-stack Developer at Benjamin Gwynn Design (2015 - 2018), a freelance experience during which I led various projects
 	- Led the development an interactive HTML5 maths worksheet editing tool - the 'Worksheet Canvas' for BigBrainMaths. The project laid the foundation for my later contributions to DataCapture's Designer tool.
 	- Worked on bespoke software for small businesses including game studios, local brick-and-mortar shops and online stores.
-	- Worked on custom components for large companies such as Capital Law and Admiral Insurance
+	- Worked on custom components for large companies such as Capital Law and Admiral Insurance.
 	- Setup and provided support for SME's on AWS and Azure, providing bespoke serverless solutions.
 - Provided support at Ikona IT Ltd. (2014) as part of a temporary role aiding local companies with their Windows-based IT infrastructure.
 
