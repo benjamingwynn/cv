@@ -1,19 +1,22 @@
+![Benjamin](https://avatars.githubusercontent.com/u/1631422)
 # Benjamin Gwynn
+Software engineer with eight years of designing and developing high-performance web applications.
 ###### [cv2024@benjamingwynn.com](mailto:cv2024@benjamingwynn.com) | [github.com/benjamingwynn](https://github.com/benjamingwynn)
-Software engineer captivated by the evolution of web technologies and unlocking high performance on the web platform. I find great joy and satisfaction in optimizing backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy.
 
 ## Objective
 
-I am seeking a challenging role to leverage my technical expertise and leadership skills in web technology projects. Eager to bring my robust understanding of backend optimization and web technologies to a forward-thinking team, where I can contribute to delivering high-quality and efficient software solutions.
+I find great joy and satisfaction in optimizing backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy, I am seeking a challenging role to leverage my technical expertise and leadership skills in web technology projects.
+
+I'm eager to bring my robust understanding of backend optimization, reverse engineering and web technologies to a forward-thinking team, where I can contribute to delivering high-quality and efficient software solutions.
 
 ## Technical Skills
 
-- Expert in Typescript/Javascript/node.js.
+- Mastery of Typescript/Javascript/node.js.
 - Expert-level knowledge with CSS and browser rendering engines, including optimising frontend performance and compatibility.
-- In-depth knowledge of managing and operating Microsoft Azure, Google Cloud Services, and AWS. Familiar with serverless and various containerised approaches to code deployment.
+- In-depth knowledge of managing and operating Microsoft Azure, Google Cloud Services, and AWS. Familiar with serverless and various containerised approaches to application deployment.
 - Highly knowledgeable in handling various databases, including SQL (Mysql, Postgresql, Rethinkdb) and NoSQL (MongoDB, Cloud Bigtable).
 - Strong experience with the modern web platform and frontend frameworks including Vue, React, and Svelte.
-- Skilled in Git, actively contributing to personal and open-source projects on Github, including raising and tracking issues, forks and PRs for commercial products.
+- Skilled in Git, actively contributing to personal and open-source projects on Github, including raising and tracking issues, forks and PRs.
 - Comprehensive knowledge in constructing and maintaining CI/CD pipelines and developing effective automated testing strategies.
 - Experienced with C#, Python, Java and PHP.
 - Confident using systems programming languages like Rust, Go and C++.
@@ -22,15 +25,15 @@ I am seeking a challenging role to leverage my technical expertise and leadershi
 ## Soft Skills
 
 - Exceptional leadership and entrepreneurial abilities exhibited as a Full-stack Freelance Developer.
-- Convincing decision-making skills demonstrated by the strategic implementation of modern technical tools and methodologies.
+- Adept decision-making skills demonstrated by the strategic implementation of modern technical tools and methodologies.
 - Strong technical communication abilities showcased by contributions to several development forums.
 - Proven strategist, focusing on company-wide improvements in development and project management systems.
 - Committed advocate for modern practices in the software development process.
 - Experienced mentor, onboarding developers of varying skill levels and standardizing the team processes.
 
-## Work Experience
+## Professional Experience
 
-### Remote Web Application Developer, DataCapture Ltd. (2021-current)
+### Remote Web Application Developer, DataCapture Ltd. (2021-2024)
 
 - Architected and led the team for developing "Designer", a cutting-edge web app enabling direct manipulation of Svelte source code files through an intuitive WYSIWYG graphical interface
 - Implemented a high-performance build & deployment application using Docker and esbuild, drastically reducing update cycles, decreasing onboarding time for server maintenance and enhancing efficiency.
@@ -38,7 +41,7 @@ I am seeking a challenging role to leverage my technical expertise and leadershi
 - Responsible for handling DevOps - implementing features such as hot reload, autoformatting and type-safety into our existing stack.
 - Individually led the development of a custom CI/CD solution, which significantly upgraded our project management system by providing a comprehensive history of unit test failures and creating a standardized testing environment.
 - Spearheaded the overhaul of our session handling system and introduced standard practices such as cookie signing to enhance security.
-- Ported industrial device protocol code (i.e. modbus, OPC) from various languages (C#, Python, Java and PHP) to native Typescript implementations.
+- Handled industrial device protocols for compatibility with existing SCADA infrastructure, employing reverse engineering and optimisation techniques.
 
 ### Other Experience
 
@@ -63,44 +66,107 @@ I am seeking a challenging role to leverage my technical expertise and leadershi
 - CertHe Computer Science (2019)
 - WJEC A-Levels incl. Computing and Electronics (2016)
 
+References available on request.
+
 <style>
 	body {
-		font-family: 'Helvetica';
+		font-family: "Helvetica";
+		color: #444;
 	}
 
 	h1 {
-		/* font-weight: normal; */
+		color: #222;
+		font-family: "Helvetica Neue";
+		font-weight: 500;
 		margin: 0;
-		text-align: center;
+		text-align: left;
 		font-size: 21pt;
 	}
 	h2 {
-		font-size: 14pt;
+		font-family: "Helvetica Neue";
+		font-weight: 500;
+		color: #333;
+		font-size: 13pt;
 		margin: 1ex 0;
 	}
 	h3 {
-		font-size: 12pt;
-		margin: 1ex 0;
-		font-weight: normal;
+		font-family: "Helvetica Neue";
+		color: #343434;
+		font-weight: 500;
+		font-size: 11.0pt;
+		margin: 0.5ex 0;
+	}
+	h4 {
+		color: #343434;
+		font-family: "Helvetica Neue";
 	}
 	h5 {
+		color: #343434;
+		font-family: "Helvetica Neue";
 		text-align: center;
 		margin: 0;
 		margin-top: 1ex;
+		font-weight: 400;
 	}
 	h6 {
-		text-align: center;
+		color: #343434;
+		font-family: "Helvetica Neue";
+		font-size: 9pt;
+		text-align: left;
 		margin: 1ex 0;
-		font-weight: normal;
+		font-weight: 400;
 	}
 
 	p, ul {
-		font-size: 10pt;
+		margin: 1.4ex 0;
+		font-size: 9.5pt;
+		color: inherit;
+	}
+	li + li, li ul {
+		margin-top: 0.5ex;
 	}
 	small {
 		font-size: 6pt;
 		display: block;
 		color: #ececec;
 		text-align: right;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: inherit;
+	}
+
+	/* pretty header */
+
+	h1, h6, h1 + p {
+		padding-left: 5.5rem;
+	}
+
+	p img {
+		font-size: 5em;
+		width: 1em;
+		height: 1em;
+		object-fit: cover;
+		border-radius: 50%;
+		position: absolute;
+		margin-top: 0.4rem;
+	}
+
+	h1 + p {
+		max-width: 125mm;
+		color: #444;
+		margin: 0;
+		margin-top: 1ex;
+		margin-bottom: 1.5ex;
+		font-size: 11.5pt;
+		font-weight: 600;
+	}
+
+	h6 {
+		border-bottom: solid 1px #747476;
+		padding-bottom: 1.3rem;
+		margin-bottom: 0.9rem;
+		color: #555;
 	}
 </style>
