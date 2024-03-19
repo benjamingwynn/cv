@@ -5,9 +5,9 @@ Software engineer with eight years of designing and developing high-performance 
 
 ## Objective
 
-I find great joy and satisfaction in optimizing backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy, I am seeking a challenging role to leverage my technical expertise and leadership skills in web technology projects.
+I find great joy and satisfaction in optimising backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy, I am seeking a challenging role to leverage my technical expertise and leadership skills in web technology projects.
 
-I'm eager to bring my robust understanding of backend optimization, reverse engineering and web technologies to a forward-thinking team, where I can contribute to delivering high-quality and efficient software solutions.
+I'm eager to bring my robust understanding of backend optimisation, reverse engineering and web technologies to a forward-thinking team, where I can contribute to delivering high-quality and efficient software solutions.
 
 ## Technical Skills
 
@@ -29,7 +29,7 @@ I'm eager to bring my robust understanding of backend optimization, reverse engi
 - Strong technical communication abilities showcased by contributions to several development forums.
 - Proven strategist, focusing on company-wide improvements in development and project management systems.
 - Committed advocate for modern practices in the software development process.
-- Experienced mentor, onboarding developers of varying skill levels and standardizing the team processes.
+- Experienced mentor, onboarding developers of varying skill levels and standardising the team processes.
 
 ## Professional Experience
 
@@ -37,9 +37,9 @@ I'm eager to bring my robust understanding of backend optimization, reverse engi
 
 - Architected and led the team for developing "Designer", a cutting-edge web app enabling direct manipulation of Svelte source code files through an intuitive WYSIWYG graphical interface
 - Implemented a high-performance build & deployment application using Docker and esbuild, drastically reducing update cycles, decreasing onboarding time for server maintenance and enhancing efficiency.
-- Initiated and headed the transformative restructuring of our system's backend into two separate processes: Data Acquisition System (DAS) and Core. This pioneering model allowed for more efficient web requests and probing/data storing, facilitating enhanced network scalability. This model permitted individual DAS units to monitor specific devices and utilized a robust communication relationship between DAS and Core using UDP datagrams and websockets. This major project not only enhanced system functionality but also retained the flexibility for local or multi-server application.
+- Initiated and headed the transformative restructuring of our system's backend into two separate processes: Data Acquisition System (DAS) and Core. This pioneering model allowed for more efficient web requests and probing/data storing, facilitating enhanced network scalability. This model permitted individual DAS units to monitor specific devices and utilised a robust communication relationship between DAS and Core using UDP datagrams and websockets. This major project not only enhanced system functionality but also retained the flexibility for local or multi-server application.
 - Responsible for handling DevOps - implementing features such as hot reload, autoformatting and type-safety into our existing stack.
-- Individually led the development of a custom CI/CD solution, which significantly upgraded our project management system by providing a comprehensive history of unit test failures and creating a standardized testing environment.
+- Individually led the development of a custom CI/CD solution, which significantly upgraded our project management system by providing a comprehensive history of unit test failures and creating a standardised testing environment.
 - Spearheaded the overhaul of our session handling system and introduced standard practices such as cookie signing to enhance security.
 - Handled industrial device protocols for compatibility with existing SCADA infrastructure, employing reverse engineering and optimisation techniques.
 
@@ -57,10 +57,10 @@ I'm eager to bring my robust understanding of backend optimization, reverse engi
 
 - BSc Computer Science, University of Lincoln (2018 - 2021)
 	- Modules included: Cloud Computing (with Google Cloud), Machine Learning, Big Data, Network Fundamentals, Parallel Programming, Logic & Computation.
-	- Dissertation: "pkgnet: A Decentralized Package Manager for Linux Code Repositories"
-		- Conducted a comprehensive analysis and developed a solution to enhance Linux software distribution efficiency using a peer-to-peer networking model, underscoring the significance of compiler optimizations and management of package releases, aiming to streamline the software delivery process.
-		- Designed and implemented a standardized method for building and sharing pre-compiled software binaries, promoting a scalable, secure, and independent distribution mechanism.
-		- Demonstrated the potential of a decentralized approach in reducing dependencies on centralized servers and handling version control disparities across Linux systems.
+	- Dissertation: "pkgnet: A Decentralised Package Manager for Linux Code Repositories"
+		- Conducted a comprehensive analysis and developed a solution to enhance Linux software distribution efficiency using a peer-to-peer networking model, underscoring the significance of compiler optimisations and management of package releases, aiming to streamline the software delivery process.
+		- Designed and implemented a standardised method for building and sharing pre-compiled software binaries, promoting a scalable, secure, and independent distribution mechanism.
+		- Demonstrated the potential of a decentralised approach in reducing dependencies on centralised servers and handling version control disparities across Linux systems.
 		- Employed Node.js and WebTorrent technology for the development of the pkgnet daemon (`pkgnetd`) and CLI tool (`pkgnet-cli`), ensuring cross-platform compatibility and leveraging modern web technologies.
 - Microsoft Certified: Azure Fundamentals (2020)
 - CertHe Computer Science (2019)
