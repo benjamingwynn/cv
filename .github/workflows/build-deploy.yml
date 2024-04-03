@@ -35,3 +35,4 @@ jobs:
         branches: "master"
         tags: true
         verbose: true
+        prerelease: false
