@@ -1,7 +1,11 @@
 /** @format */
 
+import cproc from "child_process"
 import fsp from "fs/promises"
 import {getVersionReal} from "./common.mjs"
+
+// make sure to wipe old tags from the repo
+cproc.execSync(`git fetch origin --prune --tags`)
 
 function makeDownloadUrl(tag) {
 	return `https://github.com/benjamingwynn/cv/releases/download/${tag}/cv-2024-${tag}.pdf`
