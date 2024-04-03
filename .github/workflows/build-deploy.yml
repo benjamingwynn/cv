@@ -36,3 +36,4 @@ jobs:
         tags: true
         verbose: true
         prerelease: false
+        draft: false
