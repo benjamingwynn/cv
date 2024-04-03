@@ -21,3 +21,8 @@ export function getVersion() {
 	const result = cproc.execSync(command).toString()
 	return result.trim() || fallback
 }
+
+export function getVersionReal() {
+	const command = `git describe --tags --abbrev=0`
+	return cproc.execSync(command).toString().trim()
+}

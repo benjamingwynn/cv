@@ -1,13 +1,13 @@
 /** @format */
 
 import fsp from "fs/promises"
-import {getVersion} from "./common.mjs"
+import {getVersionReal} from "./common.mjs"
 
 function makeDownloadUrl(tag) {
 	return `https://github.com/benjamingwynn/cv/releases/download/${tag}/cv-2024-${tag}.pdf`
 }
 
-const url = makeDownloadUrl(getVersion())
+const url = makeDownloadUrl(getVersionReal())
 const html = `
 <!doctype html>
 <head>
