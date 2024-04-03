@@ -23,10 +23,15 @@ This allows one to style their document and see changes apply in real-time.
 To generate a PDF simply do one of:
 
 - Hit F5 in VSCode
-- Run `pnpm run build`
+- Run `pnpm run open`
 - Run `node build/print.mjs`
 
 The PDF will be outputted to the `out` folder, and open automatically (provided you're on macos or `xdg-open` is installed)
+
+To build without opening the PDF, do either:
+
+- `pnpm run build`
+- `node build/print.mjs --no-open`
 
 #### Naming/tagging
 
