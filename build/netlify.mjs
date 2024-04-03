@@ -17,4 +17,5 @@ const html = `
 	<p style="font-family: system-ui, sans-serif">Please <a href="${url}">click here</a> to download the PDF</p>
 </body>
 `
-await fsp.writeFile("./index.html", html)
+await fsp.mkdir("./netlify", {recursive: true})
+await fsp.writeFile("./netlify/index.html", html)
