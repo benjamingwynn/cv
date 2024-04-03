@@ -1,11 +1,11 @@
 ![Benjamin](https://avatars.githubusercontent.com/u/1631422)
 # Benjamin Gwynn
-Software engineer with eight years of designing and developing high-performance web applications.
+Software engineer with nine years of designing and developing high-performance web applications.
 ###### [cv2024@benjamingwynn.com](mailto:cv2024@benjamingwynn.com) | [github.com/benjamingwynn](https://github.com/benjamingwynn)
 
 ## Objective
 
-I find great joy and satisfaction in optimising backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy, I am seeking a challenging role to leverage my technical expertise and leadership skills in web technology projects.
+I'm an experienced full-stack developer, I find great joy and satisfaction in optimising backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy, I am seeking a challenging role to leverage my technical expertise and leadership skills in web technology projects.
 
 I'm eager to bring my robust understanding of backend optimisation, reverse engineering and web technologies to a forward-thinking team, where I can contribute to delivering high-quality and efficient software solutions.
 
@@ -76,21 +76,21 @@ References available on request.
 
 	h1 {
 		color: #222;
-		font-family: "Helvetica Neue";
+		font-family: "Helvetica";
 		font-weight: 500;
 		margin: 0;
 		text-align: left;
 		font-size: 21pt;
 	}
 	h2 {
-		font-family: "Helvetica Neue";
+		font-family: "Helvetica";
 		font-weight: 500;
 		color: #333;
 		font-size: 13pt;
 		margin: 1ex 0;
 	}
 	h3 {
-		font-family: "Helvetica Neue";
+		font-family: "Helvetica";
 		color: #343434;
 		font-weight: 500;
 		font-size: 11.0pt;
@@ -98,11 +98,11 @@ References available on request.
 	}
 	h4 {
 		color: #343434;
-		font-family: "Helvetica Neue";
+		font-family: "Helvetica";
 	}
 	h5 {
 		color: #343434;
-		font-family: "Helvetica Neue";
+		font-family: "Helvetica";
 		text-align: center;
 		margin: 0;
 		margin-top: 1ex;
@@ -110,7 +110,7 @@ References available on request.
 	}
 	h6 {
 		color: #343434;
-		font-family: "Helvetica Neue";
+		font-family: "Helvetica";
 		font-size: 9pt;
 		text-align: left;
 		margin: 1ex 0;
