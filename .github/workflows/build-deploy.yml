@@ -2,9 +2,10 @@ name: Build and upload PDF to Github Release
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    tags:
+      - rev-*
+      - draft-*
+      - v*
 
 jobs:
   build:
