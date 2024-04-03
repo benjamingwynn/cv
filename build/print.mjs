@@ -60,5 +60,7 @@ status("Save to disk")
 const outputFullPath = path.join(process.cwd(), `./out/${outputFilename}`)
 await fsp.writeFile(outputFullPath, pdf)
 
-status("Open the created file")
-cproc.execSync(`${process.platform === "darwin" ? "open" : "xdg-open"} "${outputFullPath}"`)
+if (!process.argv.includes("--no-open")) {
+	status("Open the created file")
+	cproc.execSync(`${process.platform === "darwin" ? "open" : "xdg-open"} "${outputFullPath}"`)
+}
