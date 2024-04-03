@@ -50,6 +50,16 @@ git tag draft-n
 
 This will then change the output to `cv-2024-draft-n.pdf` and add `draft-n` in faint text at the bottom right of the document.
 
+### Deploying
+
+To deploy, tag the release above ^ then push the tags:
+
+```
+git push --tags
+```
+
+Github Actions will automatically release a PDF, and `cv.benjamingwynn.com` will be updated to point to it.
+
 ### Known limitations
 
 The webserver and PDF generation only support a single file, so there's no current support for external images/fonts which are served from the local machine. However, external links do work fine.
