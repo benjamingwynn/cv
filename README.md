@@ -1,10 +1,17 @@
 # Benjamin's CV
 
+![example workflow](https://github.com/benjamingwynn/cv/actions/workflows/build-deploy.yml/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32e94a93-3d5a-4742-a669-d845b450666b/deploy-status)](https://app.netlify.com/sites/bgcv/deploys)
+
 This repo generates a PDF for my CV. I also use this repo to track changes to that document.
 
 The CV is written in markdown under the `document.md` file.
 
 This markdown file first generated to HTML, then puppeteer is used to generate a PDF.
+
+### Continuous deployment
+
+Github will rebuild the PDF automatically when tagged and upload to Github releases. This is then linked to from the netlify page `cv.benjamingwynn.com` - we could serve the CV as HTML but for consistency I want everyone to have a PDF.
 
 ### Prepare the repo
 
