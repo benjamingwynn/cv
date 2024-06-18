@@ -42,16 +42,23 @@ I'm eager to bring my robust understanding of backend optimisation, reverse engi
 - Individually led the development of a custom CI/CD solution, which significantly upgraded our project management system by providing a comprehensive history of unit test failures and creating a standardised testing environment.
 - Spearheaded the overhaul of our session handling system and introduced standard practices such as cookie signing to enhance security.
 - Handled industrial device protocols for compatibility with existing SCADA infrastructure, employing reverse engineering and optimisation techniques.
+- Responsibilities included getting the company ready for Cyber Essentials, writing technical documentation, and guaranteeing scalable, high performance code.
 
-### Other Experience
+### Freelance Full-stack Developer, Benjamin Gwynn Design (2015 - 2018)
 
-- Junior Developer at Lincoln Student Union (2020), where priorities included team communication, documentation creation, and PHP code review.
-- Full-stack Developer at Benjamin Gwynn Design (2015 - 2018), a freelance experience during which I led various projects
-	- Led the development an interactive HTML5 maths worksheet editing tool - the 'Worksheet Canvas' for BigBrainMaths. The project laid the foundation for my later contributions to DataCapture's Designer tool.
-	- Worked on bespoke software for small businesses including game studios, local brick-and-mortar shops and online stores.
-	- Worked on custom components for large companies such as Capital Law and Admiral Insurance.
-	- Setup and provided support for SME's on AWS and Azure, providing bespoke serverless solutions.
+Before University I worked freelance for a number of years, during which I built and worked on various commerical projects:
+
+- Led the development the interactive maths worksheet viewer/editor on BigBrainMaths, used by teachers and students across the UK.
+- Handled dev-ops for various projects, setting up and maintaining both cloud and Linux server solutions for various businesses.
+- Worked on bespoke software for small businesses including game studios, local brick-and-mortar shops and online stores.
+- Worked on custom components for large companies such as Capital Law and Admiral Insurance.
+- Setup and provided support for SME's on AWS and Azure, providing bespoke serverless solutions.
+
+### Other experience
+
+- Filled a temporary role at Lincoln Student Union (2020) where I provided code review, and gave feedback for improving development workflow.
 - Provided support at Ikona IT Ltd. (2014) as part of a temporary role aiding local companies with their Windows-based IT infrastructure.
+- Contributing to open source projects, mostly via Git, including Android Open Source Project and various Linux documentation resources, since 2012.
 
 ## Education & Training
 
