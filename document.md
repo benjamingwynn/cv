@@ -1,77 +1,94 @@
-![Benjamin](https://avatars.githubusercontent.com/u/1631422)
+![Profile Picture](https://avatars.githubusercontent.com/u/1631422)
 # Benjamin Gwynn
-Software engineer with nine years of designing and developing high-performance web applications.
-###### [cv2024@benjamingwynn.com](mailto:cv2024@benjamingwynn.com) | [github.com/benjamingwynn](https://github.com/benjamingwynn)
+Senior full-stack web software engineer, designing and developing quality applications across the entire stack.
+###### [cv2025@benjamingwynn.com](mailto:cv2025@benjamingwynn.com) | [github.com/benjamingwynn](https://github.com/benjamingwynn)
+
+## Background
+
+I've been developing open source software since 2012, starting with Android ROM development and progressing into a successful web development career, focusing on the full web stack, from the user to the browser to the database.
+
+My professional work ranges from helping brick and mortar stores get online, to high-performance real-time data processing on critical industrial systems.
+
+I enjoy contributing to open source and have an extensive Github history of personal projects and achievements. I thrive in small, dynamic teams, but I'm open to new experiences and always eager to learn.
+
+My strongest skills are in native frontend browser technologies, and typescript on node.js for the backend. But I pride myself on being able to learn new programming languages and frameworks quickly to an in-depth level.
 
 ## Objective
 
-I'm an experienced full-stack developer, I find great joy and satisfaction in optimising backend performance, implementing advanced requirements using new technologies, and employing innovative strategies to boost team efficacy, I am seeking a challenging role to leverage my technical expertise and leadership skills in web technology projects.
+I am seeking a remote senior full-stack engineering role, or senior DevOps role, to continue to build and maintain scalable and secure web applications.
 
-I'm eager to bring my robust understanding of backend optimisation, reverse engineering and web technologies to a forward-thinking team, where I can contribute to delivering high-quality and efficient software solutions.
+I bring extensive experience across frontend and backend systems, strong architectural design skills, and a proven track record of improving performance and security in production environments.
+
+With 10 years of professional experience, I am hoping to bring my skills to a dynamic and collaborative team.
 
 ## Technical Skills
 
-- Mastery of Typescript/Javascript/node.js.
-- Expert-level knowledge with CSS and browser rendering engines, including optimising frontend performance and compatibility.
-- In-depth knowledge of managing and operating Microsoft Azure, Google Cloud Services, and AWS. Familiar with serverless and various containerised approaches to application deployment.
-- Highly knowledgeable in handling various databases, including SQL (Mysql, Postgresql, Rethinkdb) and NoSQL (MongoDB, Cloud Bigtable).
-- Strong experience with the modern web platform and frontend frameworks including Vue, React, and Svelte.
-- Skilled in Git, actively contributing to personal and open-source projects on Github, including raising and tracking issues, forks and PRs.
+- Strong architectural knowledge, designed and delivered stable web systems for a variety of business cases from scratch.
+- Strong backend systems knowledge, specifically very experienced with Node.js and SQL databases.
+- Expert-level knowledge with CSS and browser APIs, including optimising frontend performance and compatibility. Real-world experience with Vanilla JS, Vue, React and Svelte.
+- Proven experience modernizing legacy applications from platforms such as PHP 5, Symfony 1 and jQuery 1.x.
+- Highly knowledgeable in managing various databases, including SQL and NoSQL designs. Experienced in administrating time-series databases.
+- Experienced in administering RHEL, Debian, and Ubuntu servers - have a strong handle on Linux system administration, including Docker, libvirt and other containerization and virtualisation technologies.
+- Qualified and experienced with cloud platforms; Microsoft Azure, Google Cloud Services, and AWS.
+- Experience with automated deployment tools like Ansible and Nix.
 - Comprehensive knowledge in constructing and maintaining CI/CD pipelines and developing effective automated testing strategies.
-- Experienced with C#, Python, Java and PHP.
-- Confident using systems programming languages like Rust, Go and C++.
-- Experienced in administering RHEL, Debian, and Ubuntu servers - have a strong handle on Linux system administration, including Docker and virtualisation technologies.
-
-## Soft Skills
-
-- Exceptional leadership and entrepreneurial abilities exhibited as a Full-stack Freelance Developer.
-- Adept decision-making skills demonstrated by the strategic implementation of modern technical tools and methodologies.
-- Strong technical communication abilities showcased by contributions to several development forums.
-- Proven strategist, focusing on company-wide improvements in development and project management systems.
-- Committed advocate for modern practices in the software development process.
-- Experienced mentor, onboarding developers of varying skill levels and standardising the team processes.
+- Experienced at application pentesting using both SAST and DAST tools. Contributor to Microsoft's `sarif-tools` repo.
+- Strong knowledge on application security, having previously implemented user-facing technologies such as MFA and SSO, and backend mitigations like CSRF-mitigation and CSP.
+- Javascript, PHP, C#, Python, Java, PHP, Typescript. jQuery, Symfony, Vue, React, Svelte.
 
 ## Professional Experience
 
-### Remote Web Application Developer, DataCapture Ltd. (2021-2024)
+### Podfather Ltd. - DevOps Engineer (2024-present)
 
-- Architected and led the team for developing "Designer", a cutting-edge web app enabling direct manipulation of Svelte source code files through an intuitive WYSIWYG graphical interface.
-- Implemented a high-performance build & deployment application using Docker and esbuild, drastically reducing update cycles, decreasing onboarding time for server maintenance and enhancing efficiency.
-- Initiated and headed the transformative restructuring of our system's backend into two separate processes: Data Acquisition System (DAS) and Core. This pioneering model allowed for more efficient web requests and probing/data storing, facilitating enhanced network scalability. This model permitted individual DAS units to monitor specific devices and utilised a robust communication relationship between DAS and Core using UDP datagrams and websockets. This major project not only enhanced system functionality but also retained the flexibility for local or multi-server application.
-- Responsible for handling DevOps - implementing features such as hot reload, autoformatting and type-safety into our existing stack.
-- Individually led the development of a custom CI/CD solution, which significantly upgraded our project management system by providing a comprehensive history of unit test failures and creating a standardised testing environment.
-- Spearheaded the overhaul of our session handling system and introduced standard practices such as cookie signing to enhance security.
-- Handled industrial device protocols for compatibility with existing SCADA infrastructure, employing reverse engineering and optimisation techniques.
-- Responsibilities included getting the company ready for Cyber Essentials, writing technical documentation, and guaranteeing scalable, high performance code.
+- Pioneered critical security remediations - mitigating serious security vulnerabilities in the legacy PHP applications.
+- Engineered automated testing strategies for visual regressions in our different web applications using Cucumber and Selenium.
+- Maintained and applied security patches to our fork of the Symfony 1 framework for our legacy PHP applications.
+- Designed and developed a Javascript microframework for use in the legacy application for custom components, maintaining existing compatibility while improving security.
+- Heavily involved with planning and discussion for new security features, such as MFA.
+- Implemented automated SAST security testing into the CI/CD pipeline.
+- Worked with a variety of languages and frameworks: PHP, Python, Node.js, Vue, Symfony 1, Symfony 5.
+- Improved technical documentation for the existing application architecture.
+- Implemented DAST testing using ZAP and other tools.
+- Implemented application security best practices throughout our various platforms, continuously pushing for a focus on security.
+- Maintained and managed AWS infrastructure using Terraform.
 
-### Freelance Full-stack Developer, Benjamin Gwynn Design (2015 - 2018)
+### DataCapture Ltd. - Remote Web Application Developer (2021-2024)
 
-Before University I worked freelance for a number of years, during which I built and worked on various commerical projects:
+- Developed our in-house SCADA node.js-based platform, logging industrial data to a time-series database, which has many active deployments; including a high-profile brewing monastery and solar farms located throughout the South of England.
+- Heavily involved with the porting of a high-profile nuclear waste management Ignition system to our in-house node.js Typescript-based platform, improving their system's security and scalability for multi-user access.
+- Led the development of an intuitive WYSIWYG graphical interface for editing Svelte-based frontend screens.
+- Responsible for handling DevOps - handling Linux server administration and implementing features such as CI/CD solutions and fast deployments in our stack.
+- Implemented specific SCADA requirements, such as communication with industrial devices and control systems.
+- Responsibilities additionally included getting the company ready for Cyber Essentials, writing technical documentation, and guaranteeing scalable, high performance code.
+- Worked primarily with Typescript, Python, Node.js, React and Svelte.
+- Trained and mentored new hires and junior developers.
+- Directly communicated with high profile clients and company stakeholders to deliver features.
 
-- Led the development the interactive maths worksheet viewer/editor on BigBrainMaths, used by teachers and students across the UK.
-- Handled dev-ops for various projects, setting up and maintaining both cloud and Linux server solutions for various businesses.
-- Worked on bespoke software for small businesses including game studios, local brick-and-mortar shops and online stores.
-- Worked on custom components for large companies such as Capital Law and Admiral Insurance.
-- Setup and provided support for SME's on AWS and Azure, providing bespoke serverless solutions.
+### Lynton Black Media - Independent Contractor (2015 - 2020)
 
-### Other experience
+- Developed the frontend interactivity of the interactive maths worksheet viewer and editor on BigBrainMaths, a maths tuition platform.
+- Heavily involved with the design and architectural phases of various works.
+- Handled DevOps for various projects, setting up and maintaining both cloud and Linux server solutions for various businesses.
+- Worked on bespoke frontend implementations for small businesses including Damian Harris Cycles and CompareTheOilPrice.
+- Communicated directly with clients, providing updates and support where required.
 
+### Other Projects & Contributions
+
+- Contributions to open source projects, including Android Open Source Project and various documentation resources surrounding Linux, since 2012.
+- Hardware reverse engineering experience, created open source solutions on my Github for multiple EoL devices.
+- Worked on custom integrations for Capital Law's brochure website . Wrote unique applications for bespoke clients. Including bespoke Progressive Web Applications, Chrome Extensions, CMS systems and HTML5 games.
+- Provided consultancy for SME's and startups like PixelPerfect and QZee Ltd.
+- Subcontracted to fix a critical and time sensitive bug for Admiral Insurance in obfuscated Javascript, providing same-day resolution.
 - Filled a temporary role at Lincoln Student Union (2020) where I provided code review, and gave feedback for improving development workflow.
-- Provided support at Ikona IT Ltd. (2014) as part of a temporary role aiding local companies with their Windows-based IT infrastructure.
-- Contributing to open source projects, mostly via Git, including Android Open Source Project and various Linux documentation resources, since 2012.
+- Consulted businesses regarding GDPR and ISO/IEC 20007 compliance.
 
 ## Education & Training
 
 - BSc Computer Science, University of Lincoln (2018 - 2021)
 	- Modules included: Cloud Computing (with Google Cloud), Machine Learning, Big Data, Network Fundamentals, Parallel Programming, Logic & Computation.
 	- Dissertation: "pkgnet: A Decentralised Package Manager for Linux Code Repositories"
-		- Conducted a comprehensive analysis and developed a solution to enhance Linux software distribution efficiency using a peer-to-peer networking model, underscoring the significance of compiler optimisations and management of package releases, aiming to streamline the software delivery process.
-		- Designed and implemented a standardised method for building and sharing pre-compiled software binaries, promoting a scalable, secure, and independent distribution mechanism.
-		- Demonstrated the potential of a decentralised approach in reducing dependencies on centralised servers and handling version control disparities across Linux systems.
-		- Employed Node.js and WebTorrent technology for the development of the pkgnet daemon (`pkgnetd`) and CLI tool (`pkgnet-cli`), ensuring cross-platform compatibility and leveraging modern web technologies.
 - Microsoft Certified: Azure Fundamentals (2020)
 - CertHe Computer Science (2019)
-- WJEC A-Levels incl. Computing and Electronics (2016)
 
 References available on request.
 

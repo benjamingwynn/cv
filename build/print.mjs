@@ -49,7 +49,7 @@ await fsp.mkdir("./out")
 
 status("Generating name from Git tag")
 const version = getVersion()
-const outputFilename = `cv-2024-${version}.pdf`
+const outputFilename = `cv-${new Date().getFullYear()}-${version}.pdf`
 
 const pdfHtml = await renderDocument()
 
